@@ -1,62 +1,34 @@
-# React-Typescript-Starter
+# TDD Training with Jest, React, and TypeScript
 
-This Git repository serves as a starting template for projects using TypeScript, React, Jest, Husky, ESLint, and Prettier. It's designed to help you kickstart your development with a solid foundation for front-end development.
+This project is an exercise in Test-Driven Development (TDD) using Jest, React, and TypeScript. The main goal of this project was to improve my development skills by following a rigorous TDD approach.
 
-![preview template](https://github.com/BFlorian91/react-typescript-starter/blob/main/public/preview.png?raw=true)
+## Project Goals
 
-## Included Features
+- Apply the Test-Driven Development (TDD) concept by developing a small application.
+- Use Jest as the test framework to write unit tests.
+- Implement React components following a TDD approach, starting with tests.
+- Incorporate TypeScript to enhance code safety and maintainability.
+- Test various scenarios, including component unit tests and state management.
 
-- **TypeScript**: Utilizing the TypeScript language to add static types to your JavaScript code.
-- **React**: A JavaScript library for building interactive user interfaces.
-- **Jest**: A testing framework for writing unit and integration tests.
-- **Husky**: Used to trigger scripts before Git commits to ensure code quality.
-- **ESLint**: A JavaScript/TypeScript linter to enforce consistent coding standards.
-- **Prettier**: A code formatting tool to maintain a uniform code style.
+## Technologies Used
 
-## Installation
+- React: A JavaScript library for building user interfaces.
+- Jest: A popular JavaScript testing framework.
+- TypeScript: A programming language that adds static types to JavaScript.
+- HTML/CSS: For the structure and styling of the application.
 
-To start a new project using this template, follow these steps:
+## Application Features
 
-1. Clone this repository to your local machine:
+- The application is a simple counter that allows adding and subtracting values.
+- Unit tests were written for each feature, following the TDD approach.
+- TypeScript was used to define strong types and ensure code safety.
 
-```bash
-git clone [[Repository URL]](https://github.com/BFlorian91/react-typescript-starter/)
-cd react-typescript-starter
-```
+## How to Run the Project
 
-2. Install project dependencies using [pnpm](https://pnpm.io/) or [npm](https://www.npmjs.com/), if preferred:
+1. Clone this repository to your local machine.
+2. Ensure you have Node.js and npm installed on your machine.
+3. Run `pnpm install` to install project dependencies.
+4. Run `pnpm start` to launch the application in development mode.
+5. Run `pnpm test` to execute unit tests with Jest.
 
-```bash
-pnpm install
-# or
-# npm install
-```
-
-3. You are ready to start coding! You can run the project using:
-
-```bash
-pnpm start
-# or
-# npm start
-```
-
-4. Before making a commit, make sure to adhere to coding standards by running:
-
-```bash
-pnpm run lint
-```
-
-5. You can also run unit tests using:
-
-```bash
-pnpm test
-```
-
-## Contribution
-
-If you wish to contribute to this template, you are welcome! Please submit pull requests or issues to report problems or suggest improvements.
-
-## License
-
-This template is licensed under the [MIT License](https://en.wikipedia.org/wiki/MIT_License).
-# kata-counter-TDD-practice
+Feel free to explore the source code and run the tests to better understand the TDD development process used in this project.
